@@ -1,0 +1,120 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\¹¤×÷Ñ§Ï°\SPI\USER\STM32-DEMO.uvproj
+Project File Date:  05/05/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling main.c...
+main.c(20): error:  #147-D: declaration is incompatible with "void SPI_Init(SPI_TypeDef *, SPI_InitTypeDef *)" (declared at line 447 of "..\FWlib\inc\stm32f10x_spi.h")
+main.c(34): warning:  #223-D: function "SPI_SendData" declared implicitly
+main.c(34): error:  #20: identifier "SPI_Writedate" is undefined
+main.c(52): error:  #20: identifier "EXIT_InitTypeDef" is undefined
+main.c(54): warning:  #223-D: function "NVIC_Configuration" declared implicitly
+main.c(61): error:  #20: identifier "EXTI_InitStructure" is undefined
+main.c(69): error:  #159: declaration is incompatible with previous "NVIC_Configuration" (declared at line 54)
+main.c(69): warning:  #177-D: function "NVIC_Configuration" was declared but never referenced
+compiling stm32f10x_it.c...
+stm32f10x_it.c(55): warning:  #223-D: function "SPI_SendData" declared implicitly
+stm32f10x_it.c(55): error:  #20: identifier "SPI_Raeaddate" is undefined
+stm32f10x_it.c(56): error:  #268: declaration may not appear after executable statement in block
+stm32f10x_it.c(57): warning:  #223-D: function "SPI_ReceiveData" declared implicitly
+stm32f10x_it.c(59): warning:  #223-D: function "USART1_printf" declared implicitly
+stm32f10x_it.c(60): warning:  #223-D: function "SPI_ClearFlag" declared implicitly
+stm32f10x_it.c(60): error:  #20: identifier "SPI_FLAG_OVR" is undefined
+compiling USER...
+USER: Error: C3065E: type of input file '..\USER' unknown
+USER: Error: C3079E: ArmCC command with no effect
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(20): error:  #147-D: declaration is incompatible with "void SPI_Init(SPI_TypeDef *, SPI_InitTypeDef *)" (declared at line 447 of "..\FWlib\inc\stm32f10x_spi.h")
+main.c(34): warning:  #223-D: function "SPI_SendData" declared implicitly
+main.c(34): error:  #20: identifier "SPI_Writedate" is undefined
+main.c(52): error:  #20: identifier "EXIT_InitTypeDef" is undefined
+main.c(54): warning:  #223-D: function "NVIC_Configuration" declared implicitly
+main.c(61): error:  #20: identifier "EXTI_InitStructure" is undefined
+main.c(69): error:  #159: declaration is incompatible with previous "NVIC_Configuration" (declared at line 54)
+main.c(69): warning:  #177-D: function "NVIC_Configuration" was declared but never referenced
+compiling stm32f10x_it.c...
+stm32f10x_it.c(55): warning:  #223-D: function "SPI_SendData" declared implicitly
+stm32f10x_it.c(55): error:  #20: identifier "SPI_Raeaddate" is undefined
+stm32f10x_it.c(56): error:  #268: declaration may not appear after executable statement in block
+stm32f10x_it.c(57): warning:  #223-D: function "SPI_ReceiveData" declared implicitly
+stm32f10x_it.c(59): warning:  #223-D: function "USART1_printf" declared implicitly
+stm32f10x_it.c(60): warning:  #223-D: function "SPI_ClearFlag" declared implicitly
+stm32f10x_it.c(60): error:  #20: identifier "SPI_FLAG_OVR" is undefined
+compiling USER...
+USER: Error: C3065E: type of input file '..\USER' unknown
+USER: Error: C3079E: ArmCC command with no effect
+Target not created
+Build target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling main.c...
+main.c(34): warning:  #223-D: function "SPI_SendData" declared implicitly
+main.c(34): error:  #20: identifier "SPI_Writedate" is undefined
+main.c(52): error:  #20: identifier "EXIT_InitTypeDef" is undefined
+main.c(54): warning:  #223-D: function "NVIC_Configuration" declared implicitly
+main.c(61): error:  #20: identifier "EXTI_InitStructure" is undefined
+main.c(69): error:  #159: declaration is incompatible with previous "NVIC_Configuration" (declared at line 54)
+main.c(69): warning:  #177-D: function "NVIC_Configuration" was declared but never referenced
+compiling stm32f10x_it.c...
+stm32f10x_it.c(55): warning:  #223-D: function "SPI_SendData" declared implicitly
+stm32f10x_it.c(55): error:  #20: identifier "SPI_Raeaddate" is undefined
+stm32f10x_it.c(56): error:  #268: declaration may not appear after executable statement in block
+stm32f10x_it.c(57): warning:  #223-D: function "SPI_ReceiveData" declared implicitly
+stm32f10x_it.c(59): warning:  #223-D: function "USART1_printf" declared implicitly
+stm32f10x_it.c(60): warning:  #223-D: function "SPI_ClearFlag" declared implicitly
+stm32f10x_it.c(60): error:  #20: identifier "SPI_FLAG_OVR" is undefined
+compiling USER...
+USER: Error: C3065E: type of input file '..\USER' unknown
+USER: Error: C3079E: ArmCC command with no effect
+Target not created
+Build target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling main.c...
+main.c(38): warning:  #223-D: function "SPI_SendData" declared implicitly
+main.c(56): error:  #20: identifier "EXIT_InitTypeDef" is undefined
+main.c(58): warning:  #223-D: function "NVIC_Configuration" declared implicitly
+main.c(65): error:  #20: identifier "EXTI_InitStructure" is undefined
+main.c(73): error:  #159: declaration is incompatible with previous "NVIC_Configuration" (declared at line 58)
+main.c(73): warning:  #177-D: function "NVIC_Configuration" was declared but never referenced
+compiling stm32f10x_it.c...
+stm32f10x_it.c(55): warning:  #223-D: function "SPI_SendData" declared implicitly
+stm32f10x_it.c(55): error:  #20: identifier "SPI_Raeaddate" is undefined
+stm32f10x_it.c(56): error:  #268: declaration may not appear after executable statement in block
+stm32f10x_it.c(57): warning:  #223-D: function "SPI_ReceiveData" declared implicitly
+stm32f10x_it.c(59): warning:  #223-D: function "USART1_printf" declared implicitly
+stm32f10x_it.c(60): warning:  #223-D: function "SPI_ClearFlag" declared implicitly
+stm32f10x_it.c(60): error:  #20: identifier "SPI_FLAG_OVR" is undefined
+compiling USER...
+USER: Error: C3065E: type of input file '..\USER' unknown
+USER: Error: C3079E: ArmCC command with no effect
+Target not created
+Build target 'Target 1'
+assembling startup_stm32f10x_hd.s...
+compiling main.c...
+main.c(21): error:  #147-D: declaration is incompatible with "void SPI_Init(SPI_TypeDef *, SPI_InitTypeDef *)" (declared at line 447 of "..\FWlib\inc\stm32f10x_spi.h")
+main.c(35): warning:  #223-D: function "SPI_SendData" declared implicitly
+main.c(35): error:  #20: identifier "SPI_Writedate" is undefined
+main.c(53): error:  #20: identifier "EXIT_InitTypeDef" is undefined
+main.c(55): warning:  #223-D: function "NVIC_Configuration" declared implicitly
+main.c(62): error:  #20: identifier "EXTI_InitStructure" is undefined
+main.c(70): error:  #159: declaration is incompatible with previous "NVIC_Configuration" (declared at line 55)
+main.c(70): warning:  #177-D: function "NVIC_Configuration" was declared but never referenced
+compiling stm32f10x_it.c...
+stm32f10x_it.c(55): warning:  #223-D: function "SPI_SendData" declared implicitly
+stm32f10x_it.c(55): error:  #20: identifier "SPI_Raeaddate" is undefined
+stm32f10x_it.c(56): error:  #268: declaration may not appear after executable statement in block
+stm32f10x_it.c(57): warning:  #223-D: function "SPI_ReceiveData" declared implicitly
+stm32f10x_it.c(59): warning:  #223-D: function "USART1_printf" declared implicitly
+stm32f10x_it.c(60): warning:  #223-D: function "SPI_ClearFlag" declared implicitly
+stm32f10x_it.c(60): error:  #20: identifier "SPI_FLAG_OVR" is undefined
+compiling USER...
+USER: Error: C3065E: type of input file '..\USER' unknown
+USER: Error: C3079E: ArmCC command with no effect
+Target not created

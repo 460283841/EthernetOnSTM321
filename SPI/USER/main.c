@@ -15,10 +15,11 @@
 #include "stm32f10x_gpio.h"
 #include "stm32f10x_usart.h"
 
-
+#define SPI_Writedate  0x7A	  //–¥ª∫¥Ê÷∏¡Ó
+#define SPI_Raeaddate  0x3A	  //∂¡ª∫¥Ê÷∏¡Ó
 
 void USART1_Config(void);
-void SPI_Init(void);
+void SPI_enc28j60_Init(void);
 void EXIT_PC2_config(void);
 
 /* 
@@ -29,7 +30,7 @@ void EXIT_PC2_config(void);
  */
 int main(void)
 {   USART1_Config();
-    SPI_Init();
+    SPI_enc28j60_Init();
     EXIT_PC2_config();
 
 	 SPI_SendData(SPI1, SPI_Writedate);

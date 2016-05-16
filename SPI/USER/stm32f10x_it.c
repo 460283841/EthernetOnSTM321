@@ -28,6 +28,8 @@
 #include "stm32f10x_exti.h"
 #include "stm32f10x_rcc.h"
 
+#define SPI_Writedate  0x7A	  //–¥ª∫¥Ê÷∏¡Ó
+#define SPI_Raeaddate  0x3A	  //∂¡ª∫¥Ê÷∏¡Ó
 /** @addtogroup STM32F10x_StdPeriph_Template
   * @{
   */

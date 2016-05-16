@@ -1,11 +1,11 @@
 
-#include "stm32f10x_spi.h"
+#include "stm32f10x_spi.h"	
 #include "stm32f10x_rcc.h"
 
-#define SPI_Writedate  0x7A
-#define SPI_Raeaddate  0x3A
+#define SPI_Writedate  0x7A	  //–¥ª∫¥Ê÷∏¡Ó
+#define SPI_Raeaddate  0x3A	  //∂¡ª∫¥Ê÷∏¡Ó
 							 
-void SPI_Init(void)
+void SPI_enc28j60_Init(void)
 {
   SPI_InitTypeDef  SPI_InitStructure;
   GPIO_InitTypeDef GPIO_InitStructure;
